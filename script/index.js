@@ -9,9 +9,7 @@ $(window).on("load", function () {
 	$("#title").text(title[random]);
 	//set random image from random_images array
 	const image = Math.floor(Math.random() * random_images.length);
-	// $("landing background").css("background-image", "url(" + random_images[image] + ")");
-	console.log(random_images[image])
-	$("landing background").css("background-image", "url("+random_images[image]+")");
+	$("landing background").css("background-image", "url(../images/SF/4876.jpg)");
 });
 
 // hamburger menu open close
