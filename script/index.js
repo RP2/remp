@@ -10,7 +10,8 @@ $(window).on("load", function () {
 	//set random image from random_images array
 	const image = Math.floor(Math.random() * random_images.length);
 	// $("landing background").css("background-image", "url(" + random_images[image] + ")");
-	$("landing background").css("background-image", "url(../images/SF/IMG_4876.jpeg)");
+	console.log(random_images[image])
+	$("landing background").css("background-image", "url("+random_images[image]+")");
 });
 
 // hamburger menu open close
