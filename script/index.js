@@ -1,9 +1,9 @@
 const title = ["We provide wealth building & advisory services.", "Directing personalized wealth management.", "Leaders in wealth management.", "Registered investment advisors.", "Wealth management through experienced market insights."]
 
-const random_images = ["../images/SF/IMG_4874.jpeg", "../images/SF/IMG_4876.jpeg", "../images/SF/IMG_4878.jpeg", "../images/SF/IMG_4880.jpeg", "../images/SF/IMG_4881.jpeg", "../images/SF/IMG_4882.jpeg", "../images/SF/IMG_4883.jpeg", "../images/SF/IMG_4885.jpeg", "../images/SF/IMG_4888.jpeg", "../images/SF/IMG_4889.jpeg", "../images/SF/IMG_4890.jpeg", "../images/SF/IMG_8575_madrid.jpeg"]
+const random_images = ["./images/SF/IMG_4874.jpeg", "./images/SF/IMG_4876.jpeg", "./images/SF/IMG_4878.jpeg", "./images/SF/IMG_4880.jpeg", "./images/SF/IMG_4881.jpeg", "./images/SF/IMG_4882.jpeg", "./images/SF/IMG_4883.jpeg", "./images/SF/IMG_4885.jpeg", "./images/SF/IMG_4888.jpeg", "./images/SF/IMG_4889.jpeg", "./images/SF/IMG_4890.jpeg", "./images/SF/IMG_8575_madrid.jpeg"]
 const colors = ["#7D7772", "#645556", "#5B5B60", "#2B2B2B"];
 
-$(window).on("load", function () {
+$(document).ready( function () {
 	//set random title from title array
 	const random = Math.floor(Math.random() * title.length);
 	$("#title").text(title[random]);

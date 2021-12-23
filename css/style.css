@@ -187,10 +187,6 @@ body {
   font-smooth: always;
 }
 
-body images {
-  display: none;
-}
-
 body a,
 body a:hover,
 body a:focus,
