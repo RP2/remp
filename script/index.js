@@ -9,7 +9,7 @@ $(window).on("load", function () {
 	$("#title").text(title[random]);
 	//set random image from random_images array
 	const image = Math.floor(Math.random() * random_images.length);
-	$("landing background").css("background-image", "url(../images/SF/4876.jpg)");
+	$("landing background").css("background-image", "url(" + random_images[image] + ")");
 });
 
 // hamburger menu open close
@@ -132,9 +132,9 @@ $("#about people grid div").click(function () {
 });
 var prev = 0;
 $(window).on('scroll', function () {
-    var scrollTop = $(window).scrollTop();
-    $("nav img").toggleClass("hidden", scrollTop > prev);
-    prev = scrollTop;
+	var scrollTop = $(window).scrollTop();
+	$("nav img").toggleClass("hidden", scrollTop > prev);
+	prev = scrollTop;
 });
 
 //change background color when div in view
