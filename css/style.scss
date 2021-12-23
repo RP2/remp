@@ -17,6 +17,10 @@ body {
   text-rendering: optimizeLegibility;
   font-smooth: always;
 
+  & images {
+    display: none;
+  }
+
   & a,
   a:hover,
   a:focus,
