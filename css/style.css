@@ -195,8 +195,8 @@ body a:active {
   color: inherit;
 }
 
-body .hidden {
-  margin-left: -10rem;
+body *:focus {
+  outline: 0 !important;
 }
 
 body menu {
