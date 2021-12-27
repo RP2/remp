@@ -29,6 +29,10 @@ body {
     outline: 0 !important;
   }
 
+  & .hidden {
+    margin-left: -10rem;
+  }
+
 
   & menu {
     width: 100%;
