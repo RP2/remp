@@ -25,9 +25,11 @@ body {
     color: inherit;
   }
 
-  & .hidden {
-    margin-left: -10rem;
+  & *:focus {
+    outline: 0 !important;
+    box-shadow: none;
   }
+
 
   & menu {
     width: 100%;
