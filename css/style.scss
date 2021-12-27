@@ -133,7 +133,7 @@ body {
   & background {
     content: "";
     background-image: url("../images/SF/IMG_4876.jpeg");
-    background-size: 100vw auto;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -144,6 +144,12 @@ body {
     height: 100%;
     position: absolute;
     z-index: -1;
+  }
+
+  @media only screen and (max-width: 900px) {
+    & background {
+      background-attachment: scroll;
+    }
   }
 
   & users {
