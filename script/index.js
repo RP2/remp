@@ -1,7 +1,8 @@
 const title = ["We provide wealth building & advisory services.", "Directing personalized wealth management.", "Leaders in wealth management.", "Registered investment advisors.", "Wealth management through experienced market insights."]
 
 const random_images = ["./images/SF/IMG_4874.jpeg", "./images/SF/IMG_4876.jpeg", "./images/SF/IMG_4878.jpeg", "./images/SF/IMG_4880.jpeg", "./images/SF/IMG_4881.jpeg", "./images/SF/IMG_4882.jpeg", "./images/SF/IMG_4883.jpeg", "./images/SF/IMG_4885.jpeg", "./images/SF/IMG_4888.jpeg", "./images/SF/IMG_4889.jpeg", "./images/SF/IMG_4890.jpeg", "./images/SF/IMG_8575_madrid.jpeg"]
-const colors = ["#7D7772", "#645556", "#5B5B60", "#2B2B2B"];
+const old_colors = ["#7D7772", "#645556", "#5B5B60", "#2B2B2B"];
+const colors = ["65515C", "7D7773", "5A5C61", "4B4846"]
 
 $(document).ready( function () {
 	//set random title from title array
@@ -141,24 +142,24 @@ $(window).on('scroll', function () {
 $(window).scroll(function () {
 	if ($(window).scrollTop() >= $("landing").offset().top && $(window).scrollTop() <= $("#services").offset().top) {
 		$("body").css({
-			backgroundColor: '#645556'
+			backgroundColor: '#65515C'
 		});
 		$("#approach").addClass("slide-up");
 	}
 	if ($(window).scrollTop() >= $("#approach").offset().top && $(window).scrollTop() <= $("#about").offset().top) {
 		$("body").css({
-			backgroundColor: '#7D7772'
+			backgroundColor: '#7D7773'
 		});
 		$("#services").addClass("slide-up");
 	}
 	if ($(window).scrollTop() >= $("#about").offset().top && $(window).scrollTop() <= $("#footer").offset().top) {
 		$("body").css({
-			backgroundColor: '#5B5B60'
+			backgroundColor: '#5A5C61'
 		});
 	}
 	if ($(window).scrollTop() >= $("#footer").offset().top - $("#footer").outerHeight()) {
 		$("body").css({
-			backgroundColor: '#2B2B2B'
+			backgroundColor: '#4B4846'
 		});
 	}
 })

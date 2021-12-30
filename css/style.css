@@ -179,7 +179,7 @@ body {
           align-items: center;
   -webkit-transition: background-color .5s ease-in-out;
   transition: background-color .5s ease-in-out;
-  background-color: #645556;
+  background-color: #65515C;
   color: white;
   max-width: 100vw;
   overflow-x: hidden;
@@ -207,7 +207,7 @@ body menu {
   width: 100%;
   height: 100%;
   background-color: white;
-  color: #2B2B2B;
+  color: #4B4846;
   position: fixed;
   overflow: hidden;
   z-index: 1;
