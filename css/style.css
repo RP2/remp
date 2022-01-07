@@ -324,7 +324,7 @@ body landing h1 {
   text-align: center;
   font-size: calc(1rem + 5vw);
   color: white;
-  margin: 1.5rem;
+  margin: 1rem;
 }
 
 body background {
@@ -467,7 +467,7 @@ body approach h2 {
 }
 
 body approach paragraph {
-  min-width: 15rem;
+  min-width: 20rem;
   line-height: 1.5rem;
   padding: .5rem;
 }
