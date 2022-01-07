@@ -1,4 +1,4 @@
-const title = ["We provide wealth building & advisory services.", "Directing personalized wealth management.", "Wealth management through experienced market insights.", "We are fiduciaries" , "Financial planning is life planning"]
+const title = ["We provide wealth building & advisory services.", "Wealth management through experienced market insights.", "We are fiduciaries." , "Financial planning is life planning"]
 
 const random_images = ["./images/SF/IMG_4874.jpeg", "./images/SF/IMG_4876.jpeg", "./images/SF/IMG_4878.jpeg", "./images/SF/IMG_4880.jpeg", "./images/SF/IMG_4881.jpeg", "./images/SF/IMG_4882.jpeg", "./images/SF/IMG_4883.jpeg", "./images/SF/IMG_4885.jpeg", "./images/SF/IMG_4888.jpeg", "./images/SF/IMG_4889.jpeg", "./images/SF/IMG_4890.jpeg", "./images/SF/IMG_8575_madrid.jpeg"]
 const old_colors = ["#7D7772", "#645556", "#5B5B60", "#2B2B2B"];
