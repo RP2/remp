@@ -1,10 +1,10 @@
-const title = ["We provide wealth building & advisory services.", "Wealth management through experienced market insights.", "We are fiduciaries." , "Financial planning is life planning."]
+const title = ["We provide wealth building & advisory services.", "We are fiduciaries.", "Financial planning is life planning."]
 
 const random_images = ["./images/SF/IMG_4874.jpeg", "./images/SF/IMG_4876.jpeg", "./images/SF/IMG_4878.jpeg", "./images/SF/IMG_4880.jpeg", "./images/SF/IMG_4881.jpeg", "./images/SF/IMG_4882.jpeg", "./images/SF/IMG_4883.jpeg", "./images/SF/IMG_4885.jpeg", "./images/SF/IMG_4888.jpeg", "./images/SF/IMG_4889.jpeg", "./images/SF/IMG_4890.jpeg", "./images/SF/IMG_8575_madrid.jpeg"]
 const old_colors = ["#7D7772", "#645556", "#5B5B60", "#2B2B2B"];
 const colors = ["65515C", "7D7773", "5A5C61", "4B4846"]
 
-$(document).ready( function () {
+$(document).ready(function () {
 	//set random title from title array
 	const random = Math.floor(Math.random() * title.length);
 	$("#title").text(title[random]);
@@ -69,6 +69,9 @@ $("#services li").click(function () {
 			break;
 		case "risk":
 			$("#risk").slideToggle(250, "swing")
+			break;
+		case "areas":
+			$("#areas").slideToggle(250, "swing")
 			break;
 	}
 });
