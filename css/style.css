@@ -199,16 +199,16 @@ body .random-image img {
 body landing {
   margin-top: 7rem;
   width: 75%;
-  height: 75vh;
+  height: 25em;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
   position: relative;
 }
-@media (min-width: 750px) {
+@media (max-width: 900px) {
   body landing {
-    height: 25em;
+    height: 75vh;
   }
 }
 body landing h1 {
