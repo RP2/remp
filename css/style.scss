@@ -1,6 +1,10 @@
 @import "./hamburger";
 @import "./slide-up";
 
+html {
+    height: -webkit-fill-available;
+}
+
 body {
     font-family: din-2014, sans-serif;
     font-weight: 400;
@@ -13,6 +17,7 @@ body {
     background-color: #65515c;
     color: white;
     max-width: 100vw;
+    height: -webkit-fill-available;
     overflow-x: hidden;
     text-rendering: optimizeLegibility;
 
