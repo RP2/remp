@@ -127,6 +127,10 @@ body {
         overflow: hidden;
         position: relative;
 
+        @media (max-width: 900px) {
+            height: 25em;
+        }
+
         & h1 {
             letter-spacing: 0.25rem;
             text-align: center;
@@ -153,9 +157,6 @@ body {
     }
 
     @media only screen and (max-width: 900px) {
-        & landing {
-            height: 25em;
-        }
         & background {
             background-attachment: scroll;
         }

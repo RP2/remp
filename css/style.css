@@ -206,6 +206,11 @@ body landing {
   overflow: hidden;
   position: relative;
 }
+@media (max-width: 900px) {
+  body landing {
+    height: 25em;
+  }
+}
 body landing h1 {
   letter-spacing: 0.25rem;
   text-align: center;
@@ -229,9 +234,6 @@ body background {
   z-index: -1;
 }
 @media only screen and (max-width: 900px) {
-  body landing {
-    height: 25em;
-  }
   body background {
     background-attachment: scroll;
   }
