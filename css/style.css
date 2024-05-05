@@ -201,6 +201,11 @@ body landing {
   overflow: hidden;
   position: relative;
 }
+@media only screen and (max-width: 900px) {
+  body landing {
+    height: 25em;
+  }
+}
 body landing h1 {
   letter-spacing: 0.25rem;
   text-align: center;

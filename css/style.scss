@@ -122,6 +122,10 @@ body {
         overflow: hidden;
         position: relative;
 
+        @media only screen and (max-width: 900px) {
+            height: 25em;
+        }
+
         & h1 {
             letter-spacing: 0.25rem;
             text-align: center;
@@ -145,10 +149,8 @@ body {
         height: 100%;
         position: absolute;
         z-index: -1;
-    }
 
-    @media only screen and (max-width: 900px) {
-        & background {
+        @media only screen and (max-width: 900px) {
             background-attachment: scroll;
         }
     }
