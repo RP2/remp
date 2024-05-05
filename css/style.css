@@ -95,10 +95,6 @@ nav #nav-icon.open span:nth-child(4) {
   overflow: hidden;
 }
 
-html {
-  height: -webkit-fill-available;
-}
-
 body {
   font-family: din-2014, sans-serif;
   font-weight: 400;
@@ -111,7 +107,6 @@ body {
   background-color: #65515c;
   color: white;
   max-width: 100vw;
-  height: -webkit-fill-available;
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
 }
@@ -205,11 +200,6 @@ body landing {
   align-items: center;
   overflow: hidden;
   position: relative;
-}
-@media only screen and (max-width: 900px) {
-  body landing {
-    height: 25em;
-  }
 }
 body landing h1 {
   letter-spacing: 0.25rem;
