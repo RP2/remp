@@ -120,15 +120,15 @@ body {
     & landing {
         margin-top: 7rem;
         width: 75%;
-        height: 25em;
+        height: 75vh;
         display: flex;
         justify-content: center;
         align-items: center;
         overflow: hidden;
         position: relative;
 
-        @media (max-width: 900px) {
-            height: 75vh;
+        @media only screen and (max-width: 900px) {
+            height: 25em;
         }
 
         & h1 {
